@@ -2,6 +2,10 @@
 
 ## Install
 
+```shell
+npm i @phucbm/events-manager
+```
+
 ```js
 import {EventsManager} from "@phucbm/events-manager";
 ```
