@@ -1,0 +1,24 @@
+{
+  "name": "@phucbm/events-manager",
+  "version": "0.0.5",
+  "description": "Manage custom events",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phucbm/events-manager.git"
+  },
+  "keywords": [
+    "events",
+    "es6",
+    "phucbm"
+  ],
+  "author": "Phuc Bui (https://github.com/phucbm)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phucbm/events-manager/issues"
+  },
+  "homepage": "https://github.com/phucbm/events-manager#readme"
+}
