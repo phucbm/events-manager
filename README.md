@@ -1,5 +1,7 @@
 # Events Manager
 
+![Test Status](https://github.com/phucbm/events-manager/actions/workflows/test.yml/badge.svg)
+
 ## Install
 
 ```shell
