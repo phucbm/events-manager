@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "prepare": "npm test && npm run build && npm pack"
+    "prepare": "npm run build",
+    "test-npm": "npm test && npm run build && npm pack"
   },
   "files": [
     "dist/**/*",
