@@ -1,4 +1,4 @@
-name: Run Tests
+name: Test, Build, and Publish
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test:
+  test-build-publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,3 +23,11 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: Build project
+        run: npm run build
+
+      - name: Publish to npm
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

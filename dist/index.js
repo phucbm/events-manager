@@ -12,13 +12,6 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EventsManager = void 0;
-/**
- * Events Manager v0.0.2
- * An util class to manage event with these features:
- * 1. Able to assign event via context.options or context.config
- * 2. Able to assign event via method on()
- * 3. Consistently fire an event with fire() method
- */
 var utils_1 = require("./utils");
 var EventsManager = /** @class */ (function () {
     function EventsManager(context, options) {

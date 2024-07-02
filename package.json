@@ -1,12 +1,13 @@
 {
   "name": "@phucbm/events-manager",
   "version": "1.0.0",
-  "description": "Manage custom events",
+  "description": "A lightweight utility that simplifies custom event registration, firing, and handling.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "npm test && npm run build && npm pack"
   },
   "files": [
     "dist/**/*",
@@ -22,11 +23,11 @@
     "phucbm"
   ],
   "author": "Phuc Bui (https://github.com/phucbm)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/phucbm/events-manager/issues"
   },
-  "homepage": "https://github.com/phucbm/events-manager#readme",
+  "homepage": "https://github.com/phucbm/events-manager",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0",

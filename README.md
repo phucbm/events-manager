@@ -1,6 +1,8 @@
 # Events Manager
 
 ![Test Status](https://github.com/phucbm/events-manager/actions/workflows/test.yml/badge.svg)
+![NPM Publish](https://img.shields.io/github/actions/workflow/status/phucbm/events-manager/publish.yml?branch=main&label=npm%20publish&logo=npm)
+![NPM Version](https://img.shields.io/npm/v/@phucbm/events-manager)
 
 ## Install
 

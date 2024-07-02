@@ -1,10 +1,3 @@
-/**
- * Events Manager v0.0.2
- * An util class to manage event with these features:
- * 1. Able to assign event via context.options or context.config
- * 2. Able to assign event via method on()
- * 3. Consistently fire an event with fire() method
- */
 import {getValidatedEventName} from "./utils";
 import {Context, EventResponse, Options} from "./types";
 
