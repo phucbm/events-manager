@@ -1,4 +1,4 @@
-name: Test and Publish to NPM
+name: Test, Build and Publish to NPM
 
 on:
   release:
@@ -23,6 +23,9 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: Build project
+        run: npm run build
 
       - name: Publish to npm
         run: npm publish
