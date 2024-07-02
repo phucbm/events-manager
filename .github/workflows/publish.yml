@@ -1,9 +1,9 @@
-name: Test, Build, and Publish
+name: Test and Publish to NPM
 
 on:
-  push:
-    branches:
-      - main
+  release:
+    types:
+      - published
 
 jobs:
   test-build-publish:
@@ -23,9 +23,6 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-      - name: Build project
-        run: npm run build
 
       - name: Publish to npm
         run: npm publish
