@@ -1,13 +1,13 @@
-interface Context {
+export interface Context {
     config?: Record<string, any>;
     options?: Record<string, any>;
 }
 
-interface Options {
+export interface Options {
     names: string[];
 }
 
-interface EventResponse {
+export interface EventResponse {
     instance: Context;
     eventName: string;
 

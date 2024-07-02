@@ -6,11 +6,12 @@
  * 3. Consistently fire an event with fire() method
  */
 import {getValidatedEventName} from "./utils";
+import {Context, EventResponse, Options} from "./types";
 
 export class EventsManager {
     private readonly context: Context;
     private options: Options;
-    private readonly eventsList: Record<string, Function[]>;
+    readonly eventsList: Record<string, Function[]>;
 
     constructor(context: Context = {options: {}}, options: Partial<Options> = {names: []}) {
         this.context = context;
