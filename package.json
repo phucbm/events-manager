@@ -1,11 +1,16 @@
 {
   "name": "@phucbm/events-manager",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Manage custom events",
-  "main": "script.js",
+  "main": "src/script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
+  "files": [
+    "dist/**/*",
+    "src/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phucbm/events-manager.git"
@@ -20,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/phucbm/events-manager/issues"
   },
-  "homepage": "https://github.com/phucbm/events-manager#readme"
+  "homepage": "https://github.com/phucbm/events-manager#readme",
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
 }
