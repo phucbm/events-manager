@@ -1,8 +1,14 @@
 # Events Manager
 
 ![Test Status](https://github.com/phucbm/events-manager/actions/workflows/test.yml/badge.svg)
-![NPM Publish](https://img.shields.io/github/actions/workflow/status/phucbm/events-manager/publish.yml?branch=main&label=npm%20publish&logo=npm)
-![NPM Version](https://img.shields.io/npm/v/@phucbm/events-manager)
+[![npm version](https://badgen.net/npm/v/@phucbm/events-manager?activeTab=readme?icon=npm)](https://www.npmjs.com/package/@phucbm/events-manager?activeTab=readme)
+[![npm downloads](https://badgen.net/npm/dm/@phucbm/events-manager?activeTab=readme?icon=npm)](https://www.npmjs.com/package/@phucbm/events-manager?activeTab=readme)
+[![npm dependents](https://badgen.net/npm/dependents/@phucbm/events-manager?activeTab=readme?icon=npm)](https://www.npmjs.com/package/@phucbm/events-manager?activeTab=readme)
+[![github stars](https://badgen.net/github/stars/phucbm/events-manager?icon=github)](https://github.com/phucbm/events-manager/)
+[![jsdelivr hits](https://badgen.net/jsdelivr/hits/gh/phucbm/events-manager?icon=jsdelivr)](https://www.jsdelivr.com/package/gh/phucbm/events-manager)
+[![jsdelivr npm rank](https://badgen.net/jsdelivr/rank/npm/@phucbm/events-manager?activeTab=readme?icon=npm)](https://www.npmjs.com/package/@phucbm/events-manager?activeTab=readme)
+[![github license](https://badgen.net/github/license/phucbm/events-manager?icon=github)](https://github.com/phucbm/events-manager/blob/main/LICENSE)
+[![Made in Vietnam](https://raw.githubusercontent.com/webuild-community/badge/master/svg/made.svg)](https://webuild.community)
 
 ## Install
 
